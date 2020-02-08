@@ -7,11 +7,15 @@
 //
 
 import UIKit
+import Firebase
 
 class HomeViewController: UIViewController {
+    
+    var window: UIWindow?
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
 
         // Do any additional setup after loading the view.
     }

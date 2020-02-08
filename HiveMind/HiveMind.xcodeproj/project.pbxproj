@@ -3,11 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		531CB65423EE51AE0094E310 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531CB65323EE51AE0094E310 /* HomeViewController.swift */; };
+		8B9E2A270EA2A76E82236BF3 /* Pods_HiveMind_HiveMindUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBDF4B7CE55AC32F706E8B7F /* Pods_HiveMind_HiveMindUITests.framework */; };
 		900D12EA23EE2FAF00003725 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900D12E923EE2FAF00003725 /* AppDelegate.swift */; };
 		900D12EC23EE2FAF00003725 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900D12EB23EE2FAF00003725 /* SceneDelegate.swift */; };
 		900D12EE23EE2FAF00003725 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900D12ED23EE2FAF00003725 /* ViewController.swift */; };
@@ -16,7 +16,12 @@
 		900D12F623EE2FB100003725 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 900D12F423EE2FB100003725 /* LaunchScreen.storyboard */; };
 		900D130123EE2FB100003725 /* HiveMindTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900D130023EE2FB100003725 /* HiveMindTests.swift */; };
 		900D130C23EE2FB100003725 /* HiveMindUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900D130B23EE2FB100003725 /* HiveMindUITests.swift */; };
+		905C538623EEBA8500A648F8 /* StudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905C538523EEBA8500A648F8 /* StudentViewController.swift */; };
+		905C538A23EECD1500A648F8 /* ComplaintCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905C538923EECD1500A648F8 /* ComplaintCell.swift */; };
 		9084FEB323EE5841005421CD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9084FEB223EE5841005421CD /* LoginViewController.swift */; };
+		9084FEB523EE784A005421CD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9084FEB423EE784A005421CD /* GoogleService-Info.plist */; };
+		BA3C7594418483FB1AE941EF /* Pods_HiveMindTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C2C3B17172EB6949418E8D /* Pods_HiveMindTests.framework */; };
+		C7346E81F740B3C43DBA68A2 /* Pods_HiveMind.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE27B27674816877741FF69E /* Pods_HiveMind.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		531CB65323EE51AE0094E310 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2629DED35004A921056E2DF2 /* Pods-HiveMind.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiveMind.release.xcconfig"; path = "Target Support Files/Pods-HiveMind/Pods-HiveMind.release.xcconfig"; sourceTree = "<group>"; };
+		48E361DFCAF03F490B0AA850 /* Pods-HiveMind-HiveMindUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiveMind-HiveMindUITests.release.xcconfig"; path = "Target Support Files/Pods-HiveMind-HiveMindUITests/Pods-HiveMind-HiveMindUITests.release.xcconfig"; sourceTree = "<group>"; };
+		65B62FA446F2160B64239134 /* Pods-HiveMindTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiveMindTests.release.xcconfig"; path = "Target Support Files/Pods-HiveMindTests/Pods-HiveMindTests.release.xcconfig"; sourceTree = "<group>"; };
 		900D12E623EE2FAF00003725 /* HiveMind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiveMind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		900D12E923EE2FAF00003725 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		900D12EB23EE2FAF00003725 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,7 +59,16 @@
 		900D130723EE2FB100003725 /* HiveMindUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiveMindUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		900D130B23EE2FB100003725 /* HiveMindUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiveMindUITests.swift; sourceTree = "<group>"; };
 		900D130D23EE2FB100003725 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		905C538523EEBA8500A648F8 /* StudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentViewController.swift; sourceTree = "<group>"; };
+		905C538923EECD1500A648F8 /* ComplaintCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplaintCell.swift; sourceTree = "<group>"; };
 		9084FEB223EE5841005421CD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9084FEB423EE784A005421CD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9BCE154CC7AE456C59337AA2 /* Pods-HiveMind.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiveMind.debug.xcconfig"; path = "Target Support Files/Pods-HiveMind/Pods-HiveMind.debug.xcconfig"; sourceTree = "<group>"; };
+		BB7DB4C68A7B96E16AA9EA16 /* Pods-HiveMind-HiveMindUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiveMind-HiveMindUITests.debug.xcconfig"; path = "Target Support Files/Pods-HiveMind-HiveMindUITests/Pods-HiveMind-HiveMindUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C265CC24E5C28C8F4B7F2155 /* Pods-HiveMindTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiveMindTests.debug.xcconfig"; path = "Target Support Files/Pods-HiveMindTests/Pods-HiveMindTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE27B27674816877741FF69E /* Pods_HiveMind.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HiveMind.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBDF4B7CE55AC32F706E8B7F /* Pods_HiveMind_HiveMindUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HiveMind_HiveMindUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8C2C3B17172EB6949418E8D /* Pods_HiveMindTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HiveMindTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7346E81F740B3C43DBA68A2 /* Pods_HiveMind.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA3C7594418483FB1AE941EF /* Pods_HiveMindTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +92,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B9E2A270EA2A76E82236BF3 /* Pods_HiveMind_HiveMindUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		701232C4B388DF14945CCC09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE27B27674816877741FF69E /* Pods_HiveMind.framework */,
+				EBDF4B7CE55AC32F706E8B7F /* Pods_HiveMind_HiveMindUITests.framework */,
+				F8C2C3B17172EB6949418E8D /* Pods_HiveMindTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7392B12A959AFF29E7CA2B36 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9BCE154CC7AE456C59337AA2 /* Pods-HiveMind.debug.xcconfig */,
+				2629DED35004A921056E2DF2 /* Pods-HiveMind.release.xcconfig */,
+				BB7DB4C68A7B96E16AA9EA16 /* Pods-HiveMind-HiveMindUITests.debug.xcconfig */,
+				48E361DFCAF03F490B0AA850 /* Pods-HiveMind-HiveMindUITests.release.xcconfig */,
+				C265CC24E5C28C8F4B7F2155 /* Pods-HiveMindTests.debug.xcconfig */,
+				65B62FA446F2160B64239134 /* Pods-HiveMindTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		900D12DD23EE2FAF00003725 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +129,8 @@
 				900D12FF23EE2FB100003725 /* HiveMindTests */,
 				900D130A23EE2FB100003725 /* HiveMindUITests */,
 				900D12E723EE2FAF00003725 /* Products */,
+				7392B12A959AFF29E7CA2B36 /* Pods */,
+				701232C4B388DF14945CCC09 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +147,7 @@
 		900D12E823EE2FAF00003725 /* HiveMind */ = {
 			isa = PBXGroup;
 			children = (
+				9084FEB423EE784A005421CD /* GoogleService-Info.plist */,
 				900D12E923EE2FAF00003725 /* AppDelegate.swift */,
 				900D12EB23EE2FAF00003725 /* SceneDelegate.swift */,
 				900D12ED23EE2FAF00003725 /* ViewController.swift */,
@@ -110,8 +155,9 @@
 				900D12F223EE2FB100003725 /* Assets.xcassets */,
 				900D12F423EE2FB100003725 /* LaunchScreen.storyboard */,
 				900D12F723EE2FB100003725 /* Info.plist */,
-				531CB65323EE51AE0094E310 /* HomeViewController.swift */,
 				9084FEB223EE5841005421CD /* LoginViewController.swift */,
+				905C538523EEBA8500A648F8 /* StudentViewController.swift */,
+				905C538923EECD1500A648F8 /* ComplaintCell.swift */,
 			);
 			path = HiveMind;
 			sourceTree = "<group>";
@@ -141,9 +187,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 900D131023EE2FB100003725 /* Build configuration list for PBXNativeTarget "HiveMind" */;
 			buildPhases = (
+				5B0FF23084075C07ADC77A8A /* [CP] Check Pods Manifest.lock */,
 				900D12E223EE2FAF00003725 /* Sources */,
 				900D12E323EE2FAF00003725 /* Frameworks */,
 				900D12E423EE2FAF00003725 /* Resources */,
+				A12E7C013682AAC79E8E53D9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -158,6 +206,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 900D131323EE2FB100003725 /* Build configuration list for PBXNativeTarget "HiveMindTests" */;
 			buildPhases = (
+				5D03EF994060B76EDB567524 /* [CP] Check Pods Manifest.lock */,
 				900D12F823EE2FB100003725 /* Sources */,
 				900D12F923EE2FB100003725 /* Frameworks */,
 				900D12FA23EE2FB100003725 /* Resources */,
@@ -176,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 900D131623EE2FB100003725 /* Build configuration list for PBXNativeTarget "HiveMindUITests" */;
 			buildPhases = (
+				710A09D528FD0F4DD128B8A5 /* [CP] Check Pods Manifest.lock */,
 				900D130323EE2FB100003725 /* Sources */,
 				900D130423EE2FB100003725 /* Frameworks */,
 				900D130523EE2FB100003725 /* Resources */,
+				32131461D993BE4CF0E03173 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -239,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				900D12F623EE2FB100003725 /* LaunchScreen.storyboard in Resources */,
+				9084FEB523EE784A005421CD /* GoogleService-Info.plist in Resources */,
 				900D12F323EE2FB100003725 /* Assets.xcassets in Resources */,
 				900D12F123EE2FAF00003725 /* Main.storyboard in Resources */,
 			);
@@ -260,16 +312,120 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		32131461D993BE4CF0E03173 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HiveMind-HiveMindUITests/Pods-HiveMind-HiveMindUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HiveMind-HiveMindUITests/Pods-HiveMind-HiveMindUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HiveMind-HiveMindUITests/Pods-HiveMind-HiveMindUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B0FF23084075C07ADC77A8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HiveMind-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D03EF994060B76EDB567524 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HiveMindTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		710A09D528FD0F4DD128B8A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HiveMind-HiveMindUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A12E7C013682AAC79E8E53D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HiveMind/Pods-HiveMind-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HiveMind/Pods-HiveMind-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HiveMind/Pods-HiveMind-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		900D12E223EE2FAF00003725 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				531CB65423EE51AE0094E310 /* HomeViewController.swift in Sources */,
+				905C538623EEBA8500A648F8 /* StudentViewController.swift in Sources */,
 				900D12EE23EE2FAF00003725 /* ViewController.swift in Sources */,
 				900D12EA23EE2FAF00003725 /* AppDelegate.swift in Sources */,
 				9084FEB323EE5841005421CD /* LoginViewController.swift in Sources */,
 				900D12EC23EE2FAF00003725 /* SceneDelegate.swift in Sources */,
+				905C538A23EECD1500A648F8 /* ComplaintCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +596,7 @@
 		};
 		900D131123EE2FB100003725 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BCE154CC7AE456C59337AA2 /* Pods-HiveMind.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -458,6 +615,7 @@
 		};
 		900D131223EE2FB100003725 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2629DED35004A921056E2DF2 /* Pods-HiveMind.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -476,6 +634,7 @@
 		};
 		900D131423EE2FB100003725 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C265CC24E5C28C8F4B7F2155 /* Pods-HiveMindTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -498,6 +657,7 @@
 		};
 		900D131523EE2FB100003725 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65B62FA446F2160B64239134 /* Pods-HiveMindTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -520,6 +680,7 @@
 		};
 		900D131723EE2FB100003725 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB7DB4C68A7B96E16AA9EA16 /* Pods-HiveMind-HiveMindUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -540,6 +701,7 @@
 		};
 		900D131823EE2FB100003725 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48E361DFCAF03F490B0AA850 /* Pods-HiveMind-HiveMindUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
