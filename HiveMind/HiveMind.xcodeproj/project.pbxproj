@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		531CB65623EEF0C60094E310 /* ComplaintsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531CB65523EEF0C60094E310 /* ComplaintsViewController.swift */; };
 		8B9E2A270EA2A76E82236BF3 /* Pods_HiveMind_HiveMindUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBDF4B7CE55AC32F706E8B7F /* Pods_HiveMind_HiveMindUITests.framework */; };
 		900D12EA23EE2FAF00003725 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900D12E923EE2FAF00003725 /* AppDelegate.swift */; };
 		900D12EC23EE2FAF00003725 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900D12EB23EE2FAF00003725 /* SceneDelegate.swift */; };
-		900D12EE23EE2FAF00003725 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900D12ED23EE2FAF00003725 /* ViewController.swift */; };
 		900D12F123EE2FAF00003725 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 900D12EF23EE2FAF00003725 /* Main.storyboard */; };
 		900D12F323EE2FB100003725 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 900D12F223EE2FB100003725 /* Assets.xcassets */; };
 		900D12F623EE2FB100003725 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 900D12F423EE2FB100003725 /* LaunchScreen.storyboard */; };
@@ -44,11 +44,11 @@
 /* Begin PBXFileReference section */
 		2629DED35004A921056E2DF2 /* Pods-HiveMind.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiveMind.release.xcconfig"; path = "Target Support Files/Pods-HiveMind/Pods-HiveMind.release.xcconfig"; sourceTree = "<group>"; };
 		48E361DFCAF03F490B0AA850 /* Pods-HiveMind-HiveMindUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiveMind-HiveMindUITests.release.xcconfig"; path = "Target Support Files/Pods-HiveMind-HiveMindUITests/Pods-HiveMind-HiveMindUITests.release.xcconfig"; sourceTree = "<group>"; };
+		531CB65523EEF0C60094E310 /* ComplaintsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplaintsViewController.swift; sourceTree = "<group>"; };
 		65B62FA446F2160B64239134 /* Pods-HiveMindTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiveMindTests.release.xcconfig"; path = "Target Support Files/Pods-HiveMindTests/Pods-HiveMindTests.release.xcconfig"; sourceTree = "<group>"; };
 		900D12E623EE2FAF00003725 /* HiveMind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiveMind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		900D12E923EE2FAF00003725 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		900D12EB23EE2FAF00003725 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		900D12ED23EE2FAF00003725 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		900D12F023EE2FAF00003725 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		900D12F223EE2FB100003725 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		900D12F523EE2FB100003725 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -150,7 +150,7 @@
 				9084FEB423EE784A005421CD /* GoogleService-Info.plist */,
 				900D12E923EE2FAF00003725 /* AppDelegate.swift */,
 				900D12EB23EE2FAF00003725 /* SceneDelegate.swift */,
-				900D12ED23EE2FAF00003725 /* ViewController.swift */,
+				531CB65523EEF0C60094E310 /* ComplaintsViewController.swift */,
 				900D12EF23EE2FAF00003725 /* Main.storyboard */,
 				900D12F223EE2FB100003725 /* Assets.xcassets */,
 				900D12F423EE2FB100003725 /* LaunchScreen.storyboard */,
@@ -421,11 +421,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				905C538623EEBA8500A648F8 /* StudentViewController.swift in Sources */,
-				900D12EE23EE2FAF00003725 /* ViewController.swift in Sources */,
 				900D12EA23EE2FAF00003725 /* AppDelegate.swift in Sources */,
 				9084FEB323EE5841005421CD /* LoginViewController.swift in Sources */,
 				900D12EC23EE2FAF00003725 /* SceneDelegate.swift in Sources */,
 				905C538A23EECD1500A648F8 /* ComplaintCell.swift in Sources */,
+				531CB65623EEF0C60094E310 /* ComplaintsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

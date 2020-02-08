@@ -125,7 +125,7 @@
         <!--Complaints-->
         <scene sceneID="e3x-HP-ttG">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="w7I-lI-I2c" customClass="ViewController" customModule="HiveMind" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="w7I-lI-I2c" customClass="ComplaintsViewController" customModule="HiveMind" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7iw-9C-UxC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -141,14 +141,19 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="121"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Complaint" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mqp-8A-xmb">
-                                                    <rect key="frame" x="20" y="34" width="374" height="83"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Complaint" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mqp-8A-xmb">
+                                                    <rect key="frame" x="8" y="8" width="398" height="105"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="Mqp-8A-xmb" secondAttribute="bottom" constant="8" id="1of-3D-bAE"/>
+                                                <constraint firstItem="Mqp-8A-xmb" firstAttribute="leading" secondItem="rh2-vt-mdQ" secondAttribute="leading" constant="8" id="LuQ-ty-ZRF"/>
+                                                <constraint firstItem="Mqp-8A-xmb" firstAttribute="top" secondItem="rh2-vt-mdQ" secondAttribute="top" constant="8" id="hI1-NT-5ep"/>
+                                                <constraint firstAttribute="trailing" secondItem="Mqp-8A-xmb" secondAttribute="trailing" constant="8" id="xCt-ZQ-cSV"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="hello" destination="Mqp-8A-xmb" id="TaU-A4-lco"/>
@@ -173,6 +178,9 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="KSa-Bh-nfn" id="qdY-e3-XL1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gwk-1j-Qtd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -195,7 +203,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ee6-Nh-9Zo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="891" y="138"/>
+            <point key="canvasLocation" x="1023" y="138"/>
         </scene>
     </scenes>
     <resources>
