@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		531CB65223EE51920094E310 /* LoginVIewControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531CB65123EE51920094E310 /* LoginVIewControllerViewController.swift */; };
+		531CB65423EE51AE0094E310 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531CB65323EE51AE0094E310 /* HomeViewController.swift */; };
 		900D12EA23EE2FAF00003725 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900D12E923EE2FAF00003725 /* AppDelegate.swift */; };
 		900D12EC23EE2FAF00003725 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900D12EB23EE2FAF00003725 /* SceneDelegate.swift */; };
 		900D12EE23EE2FAF00003725 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900D12ED23EE2FAF00003725 /* ViewController.swift */; };
@@ -15,8 +17,6 @@
 		900D12F623EE2FB100003725 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 900D12F423EE2FB100003725 /* LaunchScreen.storyboard */; };
 		900D130123EE2FB100003725 /* HiveMindTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900D130023EE2FB100003725 /* HiveMindTests.swift */; };
 		900D130C23EE2FB100003725 /* HiveMindUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900D130B23EE2FB100003725 /* HiveMindUITests.swift */; };
-		900D131A23EE3B8100003725 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900D131923EE3B8100003725 /* LoginViewController.swift */; };
-		900D131C23EE3C6900003725 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900D131B23EE3C6900003725 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		531CB65123EE51920094E310 /* LoginVIewControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVIewControllerViewController.swift; sourceTree = "<group>"; };
+		531CB65323EE51AE0094E310 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		900D12E623EE2FAF00003725 /* HiveMind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiveMind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		900D12E923EE2FAF00003725 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		900D12EB23EE2FAF00003725 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,8 +53,6 @@
 		900D130723EE2FB100003725 /* HiveMindUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiveMindUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		900D130B23EE2FB100003725 /* HiveMindUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiveMindUITests.swift; sourceTree = "<group>"; };
 		900D130D23EE2FB100003725 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		900D131923EE3B8100003725 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		900D131B23EE3C6900003725 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,8 +110,8 @@
 				900D12F223EE2FB100003725 /* Assets.xcassets */,
 				900D12F423EE2FB100003725 /* LaunchScreen.storyboard */,
 				900D12F723EE2FB100003725 /* Info.plist */,
-				900D131923EE3B8100003725 /* LoginViewController.swift */,
-				900D131B23EE3C6900003725 /* HomeViewController.swift */,
+				531CB65123EE51920094E310 /* LoginVIewControllerViewController.swift */,
+				531CB65323EE51AE0094E310 /* HomeViewController.swift */,
 			);
 			path = HiveMind;
 			sourceTree = "<group>";
@@ -265,9 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				900D131C23EE3C6900003725 /* HomeViewController.swift in Sources */,
-				900D131A23EE3B8100003725 /* LoginViewController.swift in Sources */,
+				531CB65423EE51AE0094E310 /* HomeViewController.swift in Sources */,
 				900D12EE23EE2FAF00003725 /* ViewController.swift in Sources */,
+				531CB65223EE51920094E310 /* LoginVIewControllerViewController.swift in Sources */,
 				900D12EA23EE2FAF00003725 /* AppDelegate.swift in Sources */,
 				900D12EC23EE2FAF00003725 /* SceneDelegate.swift in Sources */,
 			);

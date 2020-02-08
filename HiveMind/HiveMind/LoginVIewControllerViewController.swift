@@ -1,5 +1,5 @@
 //
-//  HomeViewController.swift
+//  LoginVIewControllerViewController.swift
 //  HiveMind
 //
 //  Created by Evan Timko on 2/7/20.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class LoginVIewControllerViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
