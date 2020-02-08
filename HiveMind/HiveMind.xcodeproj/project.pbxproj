@@ -20,6 +20,7 @@
 		905C538A23EECD1500A648F8 /* ComplaintCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905C538923EECD1500A648F8 /* ComplaintCell.swift */; };
 		9084FEB323EE5841005421CD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9084FEB223EE5841005421CD /* LoginViewController.swift */; };
 		9084FEB523EE784A005421CD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9084FEB423EE784A005421CD /* GoogleService-Info.plist */; };
+		90E46C8523EF4147005609DD /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E46C8423EF4147005609DD /* data.swift */; };
 		BA3C7594418483FB1AE941EF /* Pods_HiveMindTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C2C3B17172EB6949418E8D /* Pods_HiveMindTests.framework */; };
 		C7346E81F740B3C43DBA68A2 /* Pods_HiveMind.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE27B27674816877741FF69E /* Pods_HiveMind.framework */; };
 /* End PBXBuildFile section */
@@ -63,6 +64,7 @@
 		905C538923EECD1500A648F8 /* ComplaintCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplaintCell.swift; sourceTree = "<group>"; };
 		9084FEB223EE5841005421CD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		9084FEB423EE784A005421CD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		90E46C8423EF4147005609DD /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
 		9BCE154CC7AE456C59337AA2 /* Pods-HiveMind.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiveMind.debug.xcconfig"; path = "Target Support Files/Pods-HiveMind/Pods-HiveMind.debug.xcconfig"; sourceTree = "<group>"; };
 		BB7DB4C68A7B96E16AA9EA16 /* Pods-HiveMind-HiveMindUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiveMind-HiveMindUITests.debug.xcconfig"; path = "Target Support Files/Pods-HiveMind-HiveMindUITests/Pods-HiveMind-HiveMindUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C265CC24E5C28C8F4B7F2155 /* Pods-HiveMindTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiveMindTests.debug.xcconfig"; path = "Target Support Files/Pods-HiveMindTests/Pods-HiveMindTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 				900D12E923EE2FAF00003725 /* AppDelegate.swift */,
 				900D12EB23EE2FAF00003725 /* SceneDelegate.swift */,
 				531CB65523EEF0C60094E310 /* ComplaintsViewController.swift */,
+				90E46C8423EF4147005609DD /* data.swift */,
 				900D12EF23EE2FAF00003725 /* Main.storyboard */,
 				900D12F223EE2FB100003725 /* Assets.xcassets */,
 				900D12F423EE2FB100003725 /* LaunchScreen.storyboard */,
@@ -425,6 +428,7 @@
 				9084FEB323EE5841005421CD /* LoginViewController.swift in Sources */,
 				900D12EC23EE2FAF00003725 /* SceneDelegate.swift in Sources */,
 				905C538A23EECD1500A648F8 /* ComplaintCell.swift in Sources */,
+				90E46C8523EF4147005609DD /* data.swift in Sources */,
 				531CB65623EEF0C60094E310 /* ComplaintsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
