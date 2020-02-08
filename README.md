@@ -1,2 +1,2 @@
-# CodeSwarm2020
-Our work from Code Swarm
+# HiveMind
+An app thagt makes giving feedback all the more easier for students on college campuses.
